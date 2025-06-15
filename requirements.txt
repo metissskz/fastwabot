@@ -1,2 +1,3 @@
 aiogram==3.20.0.post0
 aiohttp>=3.9.0,<3.12
+aiofiles>=23.2.1,<24.2

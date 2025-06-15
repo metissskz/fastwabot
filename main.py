@@ -4,7 +4,7 @@ from fastapi import FastAPI, Request
 import re
 import os
 
-TOKEN = os.getenv("BOT_TOKEN") or "ВСТАВЬ_СЮДА_СВОЙ_ТОКЕН"
+TOKEN = os.getenv("BOT_TOKEN") or 7647217847:AAEDSQucxqTHymi8kMgCzhf5x5pn8LN9Hy0
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)

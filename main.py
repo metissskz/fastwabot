@@ -9,7 +9,7 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.types import Message
 
 # Загружаем токен из переменной окружения
-BOT_TOKEN = os.getenv(7647217847:AAFzmJ6NSMUEZyKtlHkWgkcxHSp8oYZg-0o)
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # Проверка токена
 if not BOT_TOKEN:
